@@ -1,0 +1,2 @@
+At this point, emulator runs every command, that is possible to run on 6507. Maybe i will add more functionality (interrupt functions and functions for later 6502 successors). Emulator at this point is probably scattered all over with bugs and probably even doesn't work with some of more complex addressing modes. It's not much off a concern for me for now. For now i need to integrate graphics and make TIA for atari emulator, and all features, that are required for launching some extremely simple kernels, are fully implemented.
+   	       MEY 10.1.2020 (dd/mm/yyyy)
