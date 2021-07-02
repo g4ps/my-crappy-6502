@@ -1,4 +1,3 @@
-This abomination is my crappy attempt to make something, that resembles 6502 emulator.
 This project was made for the single purpose of entertaining myself, and this little project fulfilled it fully.
 To compile it, just use make.
 
@@ -9,7 +8,7 @@ To compile it, just use make.
 
 
 If you used this program, and liked it, know that I am very happy for you.
-I don't guarantee that this program works, and if you fucked something up because of the resualt of running this program,
+I don't guarantee that this program works, and if you broke something up because of the result of running this program,
  it't on you (No warranty or everything like it is provided).
  Have fun.
 
