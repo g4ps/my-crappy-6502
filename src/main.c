@@ -59,16 +59,16 @@ main(int argc, char *argv[])
   set_mem(m);
   memset(m, 0, MEM_SIZE);
 
-  int offset = 0x200;
+  int offset = 0x000;
   if (ch_offset != NULL) {
     int	o_len;
-    for	(o_len = 0; isdigit(ch_offset[o_len]); o_len++)
+    for	(o_len = 0; isxdigit(ch_offset[o_len]); o_len++)
       ;
     if (o_len != strlen(ch_offset)) {
       fprintf(stderr, "optinon after -o is not a number\n");
       exit(4);
     }
-    offset = atoi(ch_offset);
+    offset = (int)strtol(ch_offset, (char **)NULL, 10);;
   }
 
   set_pc(offset);

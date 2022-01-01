@@ -2,9 +2,9 @@ This project was made for the single purpose of entertaining myself, and this li
 To compile it, just use make.
 
 
--f option selects 6502 program file. Emulator puts program at address 0x200 and stops at BRK instruction.
--v option outputs status of all registers and current instruction on every tick.
--s [n] option sets time between ticks (default 0).
+-f 	   option selects 6502 program file. Emulator puts program at address 0x200 and stops at BRK instruction.
+-v 	  option outputs status of all registers and current instruction on every tick.
+-s n	  option sets time between ticks in seconds (default 0).
 
 
 If you used this program, and liked it, know that I am very happy for you.
