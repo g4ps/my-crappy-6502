@@ -59,7 +59,7 @@ main(int argc, char *argv[])
   set_mem(m);
   memset(m, 0, MEM_SIZE);
 
-  int offset = 0x000;
+  int offset = 0x200;
   if (ch_offset != NULL) {
     int	o_len;
     for	(o_len = 0; isxdigit(ch_offset[o_len]); o_len++)

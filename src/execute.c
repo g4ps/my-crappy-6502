@@ -583,7 +583,7 @@ jsr()
   PCL = PC & 0xff;
   m_write(S--, PCH);
   m_write(S--, PCL);
-  PC = OP1 + 0x100 * OP2 - 1;
+  PC = OP1 + 0x100 * OP2;
 }
 
 void

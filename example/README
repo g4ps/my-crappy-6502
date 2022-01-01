@@ -1,1 +1,3 @@
-This files are supposed to be assembled with 'xa' assebler;
+Files with postfix .a  are supposed to be assembled with 'xa' assebler;
+It can be found somewhere in the internet; Arch has it as a package for sure;
+
